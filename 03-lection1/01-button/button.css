@@ -1,5 +1,4 @@
 /* Стилизация кнопки */
-
 .grid {
     display: flex;
     width: 75%;
@@ -7,22 +6,27 @@
     min-height: 40vh;
     align-items: flex-start;
 }
+
 .grid__title {
     flex-basis: 25%;
 }
+
 .grid__content {
     flex-basis: 75%;
 }
+
 .group {
     display: flex;
     justify-content: space-between;
 }
+
 .group__title {
     flex-basis: 8rem;
     text-transform: uppercase;
     color: #ACB5BD;
     color: var(--grey-3, #ACB5BD);
 }
+
 .group__button {
     color: #ffffff;
     color: var(--white, #ffffff);
@@ -43,10 +47,12 @@
 .group__button_primary {
     background-color: #4263EB;
 }
+
 .group__button_secondary {
     background-color: #7048E8;
     background-color: var(--secondary, #7048E8);
 }
+
 .group__button_alternate {
     border-style: solid;
     border-width: 1px;

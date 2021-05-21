@@ -4,5 +4,6 @@
 
 .about__text {
     width: 640px;
+    line-height: 24px;
     margin: 32px auto 0 auto;
 }

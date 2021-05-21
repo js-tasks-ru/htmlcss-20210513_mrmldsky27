@@ -1,0 +1,8 @@
+.about__title, .about__text {
+    text-align: center;
+}
+
+.about__text {
+    width: 640px;
+    margin: 32px auto 0 auto;
+}

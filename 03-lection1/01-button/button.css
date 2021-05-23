@@ -27,7 +27,7 @@
     color: var(--grey-3, #ACB5BD);
 }
 
-.group__button {
+.button {
     color: #ffffff;
     color: var(--white, #ffffff);
     width: 189px;
@@ -44,16 +44,16 @@
         border-color 200ms ease-in-out;
 }
 
-.group__button_primary {
+.button_primary {
     background-color: #4263EB;
 }
 
-.group__button_secondary {
+.button_secondary {
     background-color: #7048E8;
     background-color: var(--secondary, #7048E8);
 }
 
-.group__button_alternate {
+.button_alternate {
     border-style: solid;
     border-width: 1px;
     border-color: #ACB5BD;
@@ -64,33 +64,33 @@
     color: var(--grey-4, #495057);
 }
 
-.group__button_primary:focus,
-.group__button_primary:hover,
-.group__button_primary:active {
+.button_primary:focus,
+.button_primary:hover,
+.button_primary:active {
     background-color: #374FC7;
     background-color: var(--blue, #374FC7);
 }
 
-.group__button_secondary:focus,
-.group__button_secondary:hover,
-.group__button_secondary:active {
+.button_secondary:focus,
+.button_secondary:hover,
+.button_secondary:active {
     background-color: #5028C6;
 }
 
-.group__button_alternate:focus,
-.group__button_alternate:hover,
-.group__button_alternate:active {
+.button_alternate:focus,
+.button_alternate:hover,
+.button_alternate:active {
     border-color: #212429;
 }
 
-.group__button_primary[disabled],
-.group__button_secondary[disabled] {
+.button_primary[disabled],
+.button_secondary[disabled] {
     opacity: 0.5;
     pointer-events: none;
     cursor: default;
 }
 
-.group__button_alternate[disabled] {
+.button_alternate[disabled] {
     border-color: #ACB5BD;
     color: #ACB5BD;
     pointer-events: none;

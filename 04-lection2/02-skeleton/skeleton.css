@@ -5,7 +5,7 @@
     border: 1px solid var(--grey-3);
     border-radius: 8px;
     box-sizing: border-box;
-    padding: 24px;
+    padding: 24px 40px 32px 24px;
     display: flex;
     flex-direction: column;
     align-items: space-between;
@@ -31,6 +31,7 @@
 
 .skeleton__content_header {
     justify-content: center;
+    width: calc(100% - 80px);
 }
 
 .skeleton__content_body {
@@ -48,11 +49,11 @@
 }
 
 .skeleton__text_title {
-    width: 172px;
+    width: 40%;
 }
 
 .skeleton__text_subtitle {
-    width: 257px;
+    width: 60%;
 }
 
 .skeleton__text_regular {

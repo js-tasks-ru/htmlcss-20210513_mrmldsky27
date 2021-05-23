@@ -15,18 +15,6 @@
     flex-basis: 75%;
 }
 
-.group {
-    display: flex;
-    justify-content: space-between;
-}
-
-.group__title {
-    flex-basis: 8rem;
-    text-transform: uppercase;
-    color: #ACB5BD;
-    color: var(--grey-3, #ACB5BD);
-}
-
 .button {
     color: #ffffff;
     color: var(--white, #ffffff);

@@ -1,3 +1,8 @@
+.page {
+    display: flex;
+    flex-direction: column;
+}
+
 .page__margins {
     margin: 0 10rem;
 }
@@ -10,6 +15,10 @@
     height: 237px;
 }
 
+.page__main {
+    flex-grow: 1;
+}
+
 .page__section_grey {
     background-color: #F8F9FA;
     background-color: var(--grey-1, #F8F9FA);
@@ -20,4 +29,17 @@
 .page__section_white {
     padding-top: 71px;
     padding-bottom: 136px;
+}
+
+.page__footer {
+    padding: 56px 0;
+    background-color: #F8F9FA;
+    background-color: var(--grey-1, #F8F9FA);
+}
+
+.page__footer_text {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ACB5BD;
+    color: var(--grey-3, #ACB5BD);
 }

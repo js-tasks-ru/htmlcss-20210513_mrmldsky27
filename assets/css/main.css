@@ -24,6 +24,10 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body {
+    margin: 0;
+}
+
 a {
     text-decoration: none;
     color: var(--blue-2);

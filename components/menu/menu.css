@@ -1,0 +1,19 @@
+.menu__header {
+    margin-bottom: 16px
+}
+
+.menu__list {
+    list-style: none;
+}
+
+.menu__item {
+    margin-bottom: 4px;
+}
+
+.menu__item:last-child {
+    margin-bottom: 0;
+}
+
+.menu__item_active {
+    color: #D84910;
+}

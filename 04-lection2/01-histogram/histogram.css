@@ -17,6 +17,10 @@
     justify-content: space-between;
 }
 
+.histogram__link {
+    margin-left: 10px;
+}
+
 .histogram__body {
     display: flex;
     flex-direction: column;

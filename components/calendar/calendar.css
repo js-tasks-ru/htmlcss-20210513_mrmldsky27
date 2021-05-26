@@ -6,6 +6,10 @@
     padding: 16px;
 }
 
+.cards__body.calendar {
+    margin-bottom: 20px;
+}
+
 .calendar__header {
     text-align: center;
     margin-bottom: 10px;

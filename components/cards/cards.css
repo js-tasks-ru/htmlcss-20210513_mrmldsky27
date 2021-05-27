@@ -1,8 +1,6 @@
 .cards {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    align-items: space-between;
 }
 
 .cards__item {
@@ -29,8 +27,4 @@
 .cards__title {
     text-align: center;
     order: 1;
-}
-
-.cards__body {
-    flex-grow: 1;
 }

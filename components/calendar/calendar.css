@@ -1,13 +1,10 @@
 .calendar {
-    display: flex;
-    flex-direction: column;
     border: 1px solid var(--grey-3, #ACB5BD);
     border-radius: 4px;
     padding: 16px;
-}
-
-.cards__body.calendar {
-    margin-bottom: 20px;
+    width: 100%;
+    max-width: 300px;
+    box-sizing: border-box;
 }
 
 .calendar__header {
@@ -18,10 +15,19 @@
     font-weight: bold;
 }
 
+.calendar__wrapper {
+    position: relative;
+    padding-bottom: 100%;
+}
+
 .calendar__body {
-    flex-grow: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     display: grid;
-    grid-template-columns: repeat(7, 30px);
+    grid-template-columns: repeat(7, 1fr);
     grid-template-rows: repeat(auto-fit, 30px);
     font-size: 12px;
     place-content: center center;
@@ -39,11 +45,11 @@
     font-weight: bolder;
 }
 
-.calendar__element_day_chosen {
+.calendar__element_chosen {
     background-color: var(--blue, #374FC7);
     color: var(--white, #fff)
 }
 
-.calendar__element_day_between {
+.calendar__element_between {
     background-color: #e1e7fc;
 }

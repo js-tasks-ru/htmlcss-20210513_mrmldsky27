@@ -7,9 +7,13 @@
 }
 
 .grid__title {
-    flex-basis: 25%;
+    flex-basis: 30%;
 }
 
 .grid__content {
-    flex-basis: 75%;
+    flex-basis: 70%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 10%;
+    place-items: center center;
 }

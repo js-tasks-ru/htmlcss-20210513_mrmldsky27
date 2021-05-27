@@ -1,7 +1,6 @@
 .grid {
     display: flex;
     width: 75%;
-    margin: 10vh auto 0;
     min-height: 40vh;
     align-items: flex-start;
 }

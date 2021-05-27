@@ -1,18 +1,31 @@
+:root {
+    --max-width-cal: 202px;
+    --max-height-cal: 215px;
+    --basic-font-size: 12px;
+
+    --header-color-cal: #334D6E;
+    --between-color: #d4dbf8;
+    --day-color: #334D6E;
+    --wday-color: #90A0B7;
+}
+
 .calendar {
     border: 1px solid var(--grey-3, #ACB5BD);
-    border-radius: 4px;
-    padding: 16px;
+    font-size: var(--basic-font-size);
+    border-radius: 0.3em;
+    padding: 1.1em 1.6em;
     width: 100%;
-    max-width: 300px;
+    max-width: var(--max-width-cal);
+    max-height: var(--max-height-cal);
     box-sizing: border-box;
 }
 
 .calendar__header {
     text-align: center;
-    margin-bottom: 10px;
-    color: #495057;
-    color: var(--grey, #495057);
+    font-size: 1.2em;
+    margin-bottom: 0.5em;
     font-weight: bold;
+    color: var(--header-color-cal);
 }
 
 .calendar__wrapper {
@@ -28,28 +41,29 @@
     bottom: 0;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(auto-fit, 30px);
-    font-size: 12px;
-    place-content: center center;
 }
 
 .calendar__element {
+    font-size: 1em;
+    color: var(--day-color);
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    font-family: 'Source Sans Pro';
 }
 
 .calendar__element_wday {
-    color: var(--grey-3);
-    font-weight: bolder;
+    color: var(--wday-color);
+    font-family: 'Inter';
+    font-size: 0.8em;
 }
 
 .calendar__element_chosen {
     background-color: var(--blue, #374FC7);
-    color: var(--white, #fff)
+    color: var(--white, #fff);
 }
 
 .calendar__element_between {
-    background-color: #e1e7fc;
+    background-color: var(--between-color);
 }

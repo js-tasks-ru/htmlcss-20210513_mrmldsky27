@@ -22,6 +22,9 @@
 
 * {
     font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
 }
 
 a {
@@ -65,8 +68,6 @@ h4 {
 
 h5 {
     font-size: 16px;
-    line-height: 18px;
-    letter-spacing: 0.04em;
     color: #212429;
     color: var(--black, #212429);
 }

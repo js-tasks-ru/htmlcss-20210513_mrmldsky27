@@ -1,0 +1,18 @@
+.footer {
+    background-color: #F8F9FA;
+    background-color: var(--grey-1, #F8F9FA);
+    min-height: var(--footer-height);
+    padding: 56px 0;
+}
+
+.footer__title {
+    text-align: center;
+    text-transform: uppercase;
+    color: #ACB5BD;
+    color: var(--grey-3, #ACB5BD);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+}

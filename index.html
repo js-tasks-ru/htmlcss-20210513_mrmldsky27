@@ -4,30 +4,33 @@
     <head>
         <link rel="stylesheet" href="./assets/css/main.css">
         <link rel="stylesheet" href="./components/page/page.css">
-        <link rel="stylesheet" href="./components/cards/cards.css">
+        <link rel="stylesheet" href="./components/header/header.css">
+        <link rel="stylesheet" href="./components/preview/preview.css">
+        <link rel="stylesheet" href="./components/card/card.css">
         <link rel="stylesheet" href="./components/calendar/calendar.css">
         <link rel="stylesheet" href="./components/histogram/histogram.css">
         <link rel="stylesheet" href="./components/about/about.css">
+        <link rel="stylesheet" href="./components/footer/footer.css">
     </head>
     <body class="page">
-        <header class="page__header">
-            <nav class="page__margins">
-                <h1 class="page__logo">Reusable component library</h1>
+        <header class="header">
+            <nav class="page__box">
+                <h1 class="header__heading">Reusable component library</h1>
             </nav>
         </header>
         <main class="page__main">
             <section class="page__section_grey" aria-label="kinds of reusable components">
-                <div class="page__margins">
-                    <div class="cards">
-                        <article class="cards__item">
-                            <h4 class="cards__title">Tooltip</h4>
+                <div class="page__box">
+                    <div class="preview">
+                        <article class="card">
+                            <h4 class="card__title">Tooltip</h4>
                         </article>
-                        <article class="cards__item">
-                            <h4 class="cards__title">Custom form element</h4>
+                        <article class="card">
+                            <h4 class="card__title">Custom form element</h4>
                         </article>
-                        <article class="cards__item">
-                            <h4 class="cards__title">Calendar</h4>
-                            <div class="cards__body calendar">
+                        <article class="card">
+                            <h4 class="card__title">Calendar</h4>
+                            <div class="card__body calendar">
                                 <header>
                                     <h5 class="calendar__header">June 2021</h5>
                                 </header>
@@ -75,12 +78,12 @@
                                 </div>
                             </div>
                         </article>
-                        <article class="cards__item">
-                            <h4 class="cards__title">Modal dialog</h4>
+                        <article class="card">
+                            <h4 class="card__title">Modal dialog</h4>
                         </article>
-                        <article class="cards__item">
-                            <h4 class="cards__title">Histogram</h4>
-                            <div class=" cards__body histogram">
+                        <article class="card">
+                            <h4 class="card__title">Histogram</h4>
+                            <div class=" card__body histogram">
                                 <header class="histogram__header">
                                     <h5 class="histogram__title">Total orders</h5>
                                     <a href="/" class="histogram__link">View all</a>
@@ -112,8 +115,8 @@
                                 </div>
                             </div>
                         </article>
-                        <article class="cards__item">
-                            <h4 class="cards__title">Avatar</h4>
+                        <article class="card">
+                            <h4 class="card__title">Avatar</h4>
                         </article>
                     </div>
                 </div>
@@ -125,9 +128,9 @@
                 </div>
             </section>
         </main>
-        <footer class="page__footer">
-            <div class="page__margins">
-                <h5 class="page__footer_text">Reusable component library</h5>
+        <footer class="footer">
+            <div class="page__box">
+                <p class="footer__title">Reusable component library</p>
             </div>
         </footer>
     </body>

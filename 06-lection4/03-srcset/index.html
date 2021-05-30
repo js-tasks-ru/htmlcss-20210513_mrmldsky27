@@ -5,6 +5,12 @@
         <link rel="stylesheet" href="./srcset.css">
     </head>
     <body>
-
+        <div class="wrapper">
+            <picture>
+                <source media="(max-width: 400px)" srcset="./public/forest_400.jpg, ./public/forest_768.jpg 2x">
+                <source media="(min-width: 401px)" srcset="./public/forest_768.jpg">
+                <img src="./public/forest_768.jpg" alt="a beautiful art in blue and yellow colors with river and forest on both sides of it during sunset or sundown">
+            </picture>
+        </div>
     </body>
 </html>

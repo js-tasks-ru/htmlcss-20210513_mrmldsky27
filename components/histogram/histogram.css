@@ -1,9 +1,7 @@
-  
-.histogram {
+  .histogram {
     width: 100%;
     border-color: #ACB5BD;
     border: 1px solid var(--grey-3, #ACB5BD);
-    box-sizing: border-box;
     border-radius: 4px;
     padding: 16px 24px;
     display: flex;
@@ -18,6 +16,7 @@
 
 .histogram__link {
     margin-left: 10px;
+    color: var(--blue-2);
 }
 
 .histogram__body {

@@ -9,14 +9,23 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 30px;
     padding: 40px 30px 30px;
-    margin: 0px 15px;
+    margin: 0px 15px 30px;
+    color: var(--black);
+}
+
+.card__header {
+    order: 1;
+    text-align: center;
 }
 
 .card__title {
-    text-align: center;
-    order: 1;
+    font-weight: 500;
+}
+
+.card__subtitle {
+    color: #495057;
+    margin-top: 6px;
 }
 
 .cards__body {

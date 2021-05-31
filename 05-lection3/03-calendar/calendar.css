@@ -1,4 +1,4 @@
-:root {
+.calendar {
     --max-width-cal: 300px;
     --max-height-cal: 324px;
 
@@ -6,9 +6,7 @@
     --between-color: #d4dbf8;
     --day-color: #334D6E;
     --wday-color: #90A0B7;
-}
 
-.calendar {
     border: 1px solid var(--grey-3, #ACB5BD);
     border-radius: 8px;
     padding: 28px 30px;

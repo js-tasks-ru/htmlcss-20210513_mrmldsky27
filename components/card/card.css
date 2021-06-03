@@ -1,0 +1,33 @@
+.card {
+    flex-basis: 350px;
+    width: calc(33.33% - 30px);
+    height: 367px;
+    background-color: var(--white);
+    box-shadow: 0px 2px 4px rgba(33, 36, 41, 0.05);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 30px 30px;
+    margin: 0px 15px 30px;
+    color: var(--black);
+}
+
+.card__header {
+    order: 1;
+    text-align: center;
+}
+
+.card__title {
+    font-weight: 500;
+}
+
+.card__subtitle {
+    color: #495057;
+    margin-top: 6px;
+}
+
+.cards__body {
+    margin: auto;
+}

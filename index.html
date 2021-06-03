@@ -3,8 +3,153 @@
 <html lang="ru">
     <head>
         <link rel="stylesheet" href="./assets/css/main.css">
+        <link rel="stylesheet" href="./components/page/page.css">
+        <link rel="stylesheet" href="./components/header/header.css">
+        <link rel="stylesheet" href="./components/preview/preview.css">
+        <link rel="stylesheet" href="./components/card/card.css">
+        <link rel="stylesheet" href="./components/calendar/calendar.css">
+        <link rel="stylesheet" href="./components/histogram/histogram.css">
+        <link rel="stylesheet" href="./components/about/about.css">
+        <link rel="stylesheet" href="./components/footer/footer.css">
     </head>
-    <body>
-
+    <body class="page">
+        <header class="header">
+            <nav class="page__box">
+                <h1 class="header__heading">Reusable component library</h1>
+            </nav>
+        </header>
+        <main class="page__main">
+            <section class="page__section_grey" aria-label="kinds of reusable components">
+                <div class="page__box">
+                    <div class="preview">
+                        <a class="card">
+                            <header class="card__header">
+                                <h4 class="card__title">Tooltip</h4>
+                                <p class="card__subtitle">Container</p>
+                            </header>
+                        </a>
+                        <a class="card">
+                            <header class="card__header">
+                                <h4 class="card__title">Custom form element</h4>
+                                <p class="card__subtitle">Element</p>
+                            </header>
+                        </a>
+                        <a class="card">
+                            <header class="card__header">
+                                <h4 class="card__title">Calendar</h4>
+                                <p class="card__subtitle">Container</p>
+                            </header>
+                            <div class="card__body calendar">
+                                <header>
+                                    <h5 class="calendar__header">June 2021</h5>
+                                </header>
+                                <div class="calendar__wrapper">
+                                    <div class="calendar__body">
+                                        <span class="calendar__element calendar__element_wday">Mon</span>
+                                        <span class="calendar__element calendar__element_wday">Tue</span>
+                                        <span class="calendar__element calendar__element_wday">Wed</span>
+                                        <span class="calendar__element calendar__element_wday">Thu</span>
+                                        <span class="calendar__element calendar__element_wday">Fri</span>
+                                        <span class="calendar__element calendar__element_wday">Sat</span>
+                                        <span class="calendar__element calendar__element_wday">Sun</span>
+                                        <span class="calendar__element"></span>
+                                        <span class="calendar__element">1</span>
+                                        <span class="calendar__element">2</span>
+                                        <span class="calendar__element">3</span>
+                                        <span class="calendar__element">4</span>
+                                        <span class="calendar__element">5</span>
+                                        <span class="calendar__element">6</span>
+                                        <span class="calendar__element">7</span>
+                                        <span class="calendar__element">8</span>
+                                        <span class="calendar__element">9</span>
+                                        <span class="calendar__element">10</span>
+                                        <span class="calendar__element">11</span>
+                                        <span class="calendar__element">12</span>
+                                        <span class="calendar__element">13</span>
+                                        <span class="calendar__element">14</span>
+                                        <span class="calendar__element calendar__element_chosen">15</span>
+                                        <span class="calendar__element calendar__element_between">16</span>
+                                        <span class="calendar__element calendar__element_between">17</span>
+                                        <span class="calendar__element calendar__element_between">18</span>
+                                        <span class="calendar__element calendar__element_chosen">19</span>
+                                        <span class="calendar__element">20</span>
+                                        <span class="calendar__element">21</span>
+                                        <span class="calendar__element">22</span>
+                                        <span class="calendar__element">23</span>
+                                        <span class="calendar__element">24</span>
+                                        <span class="calendar__element">25</span>
+                                        <span class="calendar__element">26</span>
+                                        <span class="calendar__element">27</span>
+                                        <span class="calendar__element">28</span>
+                                        <span class="calendar__element">29</span>
+                                        <span class="calendar__element">30</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="card">
+                            <header class="card__header">
+                                <h4 class="card__title">Modal dialog</h4>
+                                <p class="card__subtitle">Container</p>
+                            </header>
+                        </a>
+                        <a class="card">
+                            <header class="card__header">
+                                <h4 class="card__title">Histogram</h4>
+                                <p class="card__subtitle">Element</p>
+                            </header>
+                            <div class="card__body histogram">
+                                <header class="histogram__header">
+                                    <h5 class="histogram__title">Total orders</h5>
+                                    <p href="/" class="histogram__link">View all</p>
+                                </header>
+                                <div class="histogram__body">
+                                    <h4 class="histogram__sum">50254</h4>
+                                    <div class="histogram__items">
+                                        <div class="histogram__item" style="height:40px;"></div>
+                                        <div class="histogram__item" style="height:50px;"></div>
+                                        <div class="histogram__item" style="height:47px;"></div>
+                                        <div class="histogram__item" style="height:50px;"></div>
+                                        <div class="histogram__item" style="height:25px;"></div>
+                                        <div class="histogram__item" style="height:15px;"></div>
+                                        <div class="histogram__item" style="height:10px;"></div>
+                                        <div class="histogram__item" style="height:40px;"></div>
+                                        <div class="histogram__item" style="height:35px;"></div>
+                                        <div class="histogram__item" style="height:50px;"></div>
+                                        <div class="histogram__item" style="height:20px;"></div>
+                                        <div class="histogram__item" style="height:50px;"></div>
+                                        <div class="histogram__item" style="height:45px;"></div>
+                                        <div class="histogram__item" style="height:60px;"></div>
+                                        <div class="histogram__item" style="height:20px;"></div>
+                                        <div class="histogram__item" style="height:55px;"></div>
+                                        <div class="histogram__item" style="height:45px;"></div>
+                                        <div class="histogram__item" style="height:50px;"></div>
+                                        <div class="histogram__item" style="height:30px;"></div>
+                                        <div class="histogram__item" style="height:25px;"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <a class="card">
+                            <header class="card__header">
+                                <h4 class="card__title">Avatar</h4>
+                                <p class="card__subtitle">Element</p>
+                            </header>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section class="page__section_white" aria-label="about the project">
+                <div class="about">
+                    <h2 class="about__title">About</h2>
+                    <p class="about__text">This project is a collection of professionally designed, pre-built, fully responsive HTML snippets you can drop into your projects. Get started by checking out our free preview components, or browsing the PNG previews in the categories you're most curious about.</p>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="page__box">
+                <p class="footer__title">Reusable component library</p>
+            </div>
+        </footer>
     </body>
 </html>

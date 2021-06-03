@@ -4,21 +4,14 @@
     height: 100%;
 }
 
-.page__margins {
-    margin: 0 10rem;
-}
-
-.page__logo {
-    white-space: nowrap;
-}
-
-.page__header {
-    padding: 5rem 0;
-}
-
 .page__main {
     flex-grow: 1;
     flex-basis: 1rem;
+}
+
+.page__box {
+    max-width: 1110px;
+    margin: 0 auto;
 }
 
 .page__section_grey {
@@ -31,18 +24,4 @@
 .page__section_white {
     padding-top: 71px;
     padding-bottom: 136px;
-}
-
-.page__footer {
-    background-color: #F8F9FA;
-    background-color: var(--grey-1, #F8F9FA);
-    padding: 1rem 0;
-}
-
-.page__footer_text {
-    text-align: center;
-    text-transform: uppercase;
-    color: #ACB5BD;
-    color: var(--grey-3, #ACB5BD);
-    line-height: var(--footer-height);
 }

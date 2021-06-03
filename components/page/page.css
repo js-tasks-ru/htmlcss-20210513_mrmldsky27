@@ -1,6 +1,12 @@
 .page {
     display: flex;
     flex-direction: column;
+    height: 100%;
+}
+
+.page__main {
+    flex-grow: 1;
+    flex-basis: 1rem;
 }
 
 .page__box {

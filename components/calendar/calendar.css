@@ -1,17 +1,17 @@
 .calendar {
-    --max-width-cal: 202px;
-    --max-height-cal: 215px;
-    --basic-font-size: 12px;
+    --max-width-cal: 140px;
+    --max-height-cal: 150px;
+    --basic-font-size: 8px;
 
     --header-color-cal: #334D6E;
     --between-color: #d4dbf8;
     --day-color: #334D6E;
     --wday-color: #90A0B7;
 
-    border: 1px solid var(--grey-3, #ACB5BD);
+    border: none;
     font-size: var(--basic-font-size);
     border-radius: 0.3em;
-    padding: 1.1em 1.6em;
+    /* padding: 1.1em 1.6em; */
     width: 100%;
     max-width: var(--max-width-cal);
     max-height: var(--max-height-cal);
@@ -64,4 +64,15 @@
 
 .calendar__element_between {
     background-color: var(--between-color);
+}
+
+
+@media (min-width: 480px) {
+    .calendar {
+        --max-width-cal: 202px;
+        --max-height-cal: 215px;
+        --basic-font-size: 12px;
+        border: 1px solid var(--grey-3, #ACB5BD);
+        padding: 1.1em 1.6em;
+    }
 }

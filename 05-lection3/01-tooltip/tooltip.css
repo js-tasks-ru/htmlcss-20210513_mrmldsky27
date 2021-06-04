@@ -1,0 +1,50 @@
+svg {
+    width: 100%;
+    height: 100%;
+}
+
+.tooltip {
+    position: relative;
+}
+
+.tooltip__trigger {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+.tooltip__icon {
+    fill: var(--black);
+}
+
+.tooltip__help {
+    width: 129px;
+    height: 45px;
+    background-color: var(--blue-1);
+    position: absolute;
+    left: 50%;
+    top: -240%;
+    transform: translate(-50%, 5px);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--grey-2);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.tooltip__help:before {
+    content: "";
+    border: 7px solid transparent;
+    border-top: 6px solid var(--blue-1);
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, 100%);
+}
+
+.tooltip__trigger:hover ~ .tooltip__help {
+    opacity: 1;
+}

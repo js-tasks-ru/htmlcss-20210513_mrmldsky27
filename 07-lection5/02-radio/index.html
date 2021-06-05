@@ -4,8 +4,130 @@
     <head>
         <link rel="stylesheet" href="../../assets/css/main.css">
         <link rel="stylesheet" href="./radio.css">
+        <style>
+            body {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                justify-content: space-evenly;
+                border-radius: 4px;
+                box-shadow: 0px 2px 4px rgba(33, 36,41, 0.3);
+                padding: 1rem 2rem;
+                height: 30%;
+                margin-left: 1rem;
+            }
+            .container:first-child {
+                margin-left: 0;
+            }
+        </style>
     </head>
     <body>
+        <div class="container" role="radiogroup">
+            <h4>Group 1</h4>
+            <label for="radio1" class="radio">
+                <input
+                    type="radio"
+                    name="radio-group1"
+                    id="radio1"
+                    value="radio1"
+                    class="radio__input"
+                >
+                <div class="radio__state">
+                    <div class="radio__control">
+                        <div class="radio__icon"></div>
+                    </div>
+                    <div class="radio__legend">Default</div>
+                </div>
+            </label>
+            <label for="radio2" class="radio">
+                <input
+                    type="radio"
+                    name="radio-group1"
+                    id="radio2"
+                    value="radio2"
+                    class="radio__input"
+                    checked
+                >
+                <div class="radio__state">
+                    <div class="radio__control">
+                        <div class="radio__icon"></div>
+                    </div>
+                    <div class="radio__legend">Selected</div>
+                </div>
+            </label>
+            <label for="radio3" class="radio">
+                <input
+                    type="radio"
+                    name="radio-group1"
+                    id="radio3"
+                    value="radio3"
+                    class="radio__input"
+                    disabled
+                >
+                <div class="radio__state">
+                    <div class="radio__control">
+                        <div class="radio__icon"></div>
+                    </div>
+                    <div class="radio__legend">Disabled</div>
+                </div>
+            </label>
+        </div>
+        <div class="container" role="radiogroup">
+            <h4>Group 2</h4>
+            <label for="radio4" class="radio">
+                <input
+                    type="radio"
+                    name="radio-group2"
+                    id="radio4"
+                    value="radio4"
+                    class="radio__input"
+                >
+                <div class="radio__state">
+                    <div class="radio__control">
+                        <div class="radio__icon"></div>
+                    </div>
+                    <div class="radio__legend">Default</div>
+                </div>
+            </label>
+            <label for="radio5" class="radio">
+                <input
+                    type="radio"
+                    name="radio-group2"
+                    id="radio5"
+                    value="radio5"
+                    class="radio__input"
+                    checked
+                >
+                <div class="radio__state">
+                    <div class="radio__control">
+                        <div class="radio__icon"></div>
+                    </div>
+                    <div class="radio__legend">Selected</div>
+                </div>
+            </label>
+            <label for="radio6" class="radio">
+                <input
+                    type="radio"
+                    name="radio-group2"
+                    id="radio6"
+                    value="radio6"
+                    class="radio__input"
+                    disabled
+                >
+                <div class="radio__state">
+                    <div class="radio__control">
+                        <div class="radio__icon"></div>
+                    </div>
+                    <div class="radio__legend">Disabled</div>
+                </div>
+            </label>
+        </div>
 
     </body>
 </html>

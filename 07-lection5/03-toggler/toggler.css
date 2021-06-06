@@ -42,10 +42,13 @@
 
 .toggler__input:checked ~ .toggler__state .toggler__control {
     background-color: var(--blue-1);
+    border: none;
 }
 
 .toggler__input:checked ~ .toggler__state .toggler__icon {
     transform: translate(23px, -50%);
+    background-color: var(--white);
+    border: none;
 }
 
 .toggler__input:disabled ~ .toggler__state {

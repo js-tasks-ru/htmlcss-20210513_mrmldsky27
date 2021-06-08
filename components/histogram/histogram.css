@@ -12,8 +12,7 @@
 }
 
 .histogram_preview {
-    --basic-font-size: 10px;
-    border: none;
+    --basic-font-size: 9px;
 }
 
 .histogram__header {
@@ -66,6 +65,5 @@
 @media (min-width: 480px) {
     .histogram_preview {
         --basic-font-size: 16px;
-        border: 1px solid var(--grey-3, #ACB5BD);
     }
 }

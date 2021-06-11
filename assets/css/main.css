@@ -31,6 +31,10 @@ html, body {
     height: 100%;
 }
 
+svg, use {
+    pointer-events: none;
+}
+
 a {
     text-decoration: none;
     color: var(--blue-2);
@@ -51,8 +55,10 @@ h3, h4 {
 }
 
 h1 {
-    font-size: 50px;
-    line-height: 64px;
+    font-size: 38px;
+    line-height: 48px;
+    color: var(--grey-4);
+    font-weight: 400;
 }
 
 h2 {
@@ -72,8 +78,16 @@ h4 {
 
 h5 {
     font-size: 16px;
-    line-height: 18px;
+    line-height: 1em;
     letter-spacing: 0.04em;
     color: #212429;
     color: var(--black, #212429);
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 50px;
+        line-height: 64px;
+        color: var(--black);
+    }
 }

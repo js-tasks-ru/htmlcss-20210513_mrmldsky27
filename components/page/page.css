@@ -10,18 +10,35 @@
 }
 
 .page__box {
-    max-width: 1110px;
+    max-width: calc(100% - 32px);
     margin: 0 auto;
 }
 
 .page__section_grey {
     background-color: #F8F9FA;
     background-color: var(--grey-1, #F8F9FA);
-    padding-top: 68px;
-    padding-bottom: 174px;
 }
 
-.page__section_white {
-    padding-top: 71px;
-    padding-bottom: 136px;
+.page__section_white, .page__section_grey {
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+
+@media (min-width: 980px) {
+    .page__section_grey {
+        padding-top: 68px;
+        padding-bottom: 174px;
+    }
+
+    .page__section_white {
+        padding-top: 71px;
+        padding-bottom: 136px;
+    }
+}
+
+@media (min-width: 1150px) {
+    .page__box {
+        max-width: 1110px;
+        margin: 0 auto; 
+    }
 }
